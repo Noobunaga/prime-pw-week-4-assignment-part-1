@@ -56,15 +56,21 @@ console.log( '6 * 7 * 8 =', multiplyThree(6, 7, 8) );
 //    or greater than zero, and false otherwise
 function isPositive( number ) {
   if ( number > 0 ){
-    return;
+    return true;
   }
-    return;
+  else{
+    return false;
+  }
 }
+
 // Call the function to test each outcome (true & false)
 // Write a separate console.log statement for each outcome
 console.log( 'isPositive - should say true', isPositive(3) );
+console.log( '3 is greater than 0 so its', isPositive(3));
 console.log( 'isPositive - should say false', isPositive(0) );
+console.log( 'o is not greater than 0 so its', isPositive(0));
 console.log( 'isPositive - should say false', isPositive(-3) );
+console.log( '3 is not greater than 0 so its', isPositive(-3));
 
 
 // 6. Function to return the _last_ item in an array. If the
