@@ -17,19 +17,21 @@ function returner(){
 
 }
 
-  returner();
+returner();
 
 // 2. Function to return an personalized hello, using the `name` argument.
 //    for example 'Hello, Jo!', or 'Hello, Stacy!'
 function helloName(name) {
-  return name;
+  return 'Byrce';
 }
 
-helloName( 'Bryce' );
-console.log('Hello', helloName(),'!');
+
 
 // Remember to call the function to test(){
-console.log( 'Hello', helloName(name));
+helloName( );
+console.log('Hello', helloName(name),'!');
+
+
 
 // 3. Function to add two numbers together & return the result
 function addNumbers( firstNumber ) {
