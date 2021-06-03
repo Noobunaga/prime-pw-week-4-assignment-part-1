@@ -80,7 +80,7 @@ function getLast( array ){
   return array[lastIndex];
 }
 console.log([1,2,3,4]);
-console.log(getLast([]));
+console.log(getLast([1,2,3,4]));
 // 7. Function to find a value in an array. Return true if the
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find
