@@ -78,6 +78,9 @@ console.log( '3 is not greater than 0 so its', isPositive(-3));
 function getLast( array ){
   let lastIndex = array.length-1;
   return array[lastIndex];
+    if (array.length < 1 ){
+      return undefined;
+   }
 }
 console.log([1,2,3,4]);
 console.log(getLast([1,2,3,4]));
